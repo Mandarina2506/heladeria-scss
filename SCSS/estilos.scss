@@ -1,11 +1,10 @@
-// Variables de diseño
+
 $color-fondo: #fce4ec;
 $color-primario: #d81b60;
 $color-tarjeta: #ffffff;
 $color-borde: #ccc;
 $fuente-principal: Arial, sans-serif;
 
-// Estilos base
 body {
   font-family: $fuente-principal;
   background-color: $color-fondo;
@@ -18,7 +17,6 @@ h1 {
   color: $color-primario;
 }
 
-// Lista de sabores con anidamiento SCSS
 ul {
   list-style-type: none;
   padding: 0;
